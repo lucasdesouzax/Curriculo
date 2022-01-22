@@ -1,0 +1,130 @@
+@charset "Utf-8";
+body{
+    background-color: #dddddd;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 12pt;
+   
+}
+span{
+    text-decoration: underline;
+}
+header#cabecalho{
+position: relative;
+text-align: center;
+background-color: #cecece;;
+padding-top: 5px;
+margin-top: 7px;
+height: 125px;
+box-shadow: 2px 2px 2px rgba(0,0,0,.6);
+}
+header#cabecalho h1{
+    margin-bottom: -1px;
+    font-family: 'Trebuchet MS';
+}
+header#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-decoration: underline;
+}
+
+figure.lucas{
+    position: relative;
+    top: -115px;
+    left: -365px; 
+}
+figure.lucas img{
+    width: 135px;
+    height: 135px;
+    border:3px solid white;
+    box-shadow: 1px 1px 4px black; 
+}
+figure.lucas figcaption{
+    position: absolute;
+    color: white;
+    width: 139px;
+    height: 139px;
+    left: 340px;
+    top: 0px;
+    bottom: 0px;
+    border: solid 1px white;
+    background-color: rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    text-align:center;
+    opacity: 0;
+}
+figure.lucas figcaption span{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin-top: 127px;
+    margin-right: 100px;
+    font-size: 6pt;
+
+}
+figure.lucas:hover figcaption{
+opacity: 1;
+transition: 1.5s;
+}
+div#conteudo{/*CENTRALIZANDO O SITE NA PÁGINA*/
+position: relative;
+background-color: #ffffff; /*Criando a cor de fundo para destacar a centralização*/
+width: 900px;/*tamanho da margem de fundo recem criado*/
+margin-top: -20px;
+margin-right: auto;/*bordas a direita e a esquerda noautomático centralizam o conteúdo dentro do fundo criado*/
+margin-left: auto;
+margin-bottom: 0px;
+padding: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);/* Sombra destaca o alinhamento */
+}
+section#corpo{
+    display: block;
+    float: right;
+    width: 500px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    font-size: 12pt;
+
+}
+section#corpo h1{
+    font-size: 15pt;
+    color: #296d64d7;
+    background-color: #cecece;
+    padding: 0px 5px 0px 5px;
+}
+section#corpo ul{
+    position: relative;
+    left: -25px;
+    top: 0px;
+    
+}
+aside#lateral{
+    display: block;
+    float: left;
+    width: 350px;
+    text-align: justify;
+    font-size: 11pt;
+    margin-top: 27px;
+    margin-left: 12px;
+    background-color: #cecece;
+    padding: 5px 7px 5px 7px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+aside#lateral h1{
+    color:whitesmoke;
+    background-color: #296d64d7;
+    padding: 0px 5px 0px 5px;
+    font-size: 15pt;
+    margin-top: 7pt;
+}
+aside#lateral p{
+    margin-top: -10px;
+}
+footer#skills{
+    clear: both;
+    border-top: 1px solid black;
+    text-align: center;
+    
+    
+
+}
